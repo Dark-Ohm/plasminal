@@ -1,0 +1,19 @@
+pkgbase = plasminal
+	pkgdesc = Desktop widget with embedded terminal for KDE Plasma 6
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/DarkOhmLabs/plasminal
+	arch = any
+	license = GPL-2.0-or-later
+	depends = plasma-workspace>=6.0
+	depends = libplasma>=6.0
+	depends = kirigami>=6.0
+	depends = kcmutils>=6.0
+	depends = qmltermwidget
+	depends = qt6-declarative>=6.0
+	optdepends = konsole: for additional color schemes and profiles
+	optdepends = noto-fonts-emoji: for emoji support in terminal
+	source = plasminal-1.0.0.tar.gz::https://github.com/DarkOhmLabs/plasminal/releases/download/v1.0.0/plasminal-1.0.0.tar.gz
+	sha256sums = 783f65f36a8587daac28d42c455e49f7156fe9375c4b3c2d6101a980353e0367
+
+pkgname = plasminal
