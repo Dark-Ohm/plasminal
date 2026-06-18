@@ -117,6 +117,7 @@ kquitapp6 plasmashell && kstart5 plasmashell
 ### Method 3: The Arch Way (AUR)
 
 ```bash
+# Once published to AUR:
 yay -S plasminal
 # or
 paru -S plasminal

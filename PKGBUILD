@@ -22,8 +22,8 @@ optdepends=(
 )
 conflicts=()
 provides=()
-source=("$pkgname-$pkgver.tar.gz")
-sha256sums=('SKIP')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/DarkOhmLabs/plasminal/releases/download/v$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('783f65f36a8587daac28d42c455e49f7156fe9375c4b3c2d6101a980353e0367')
 
 package() {
     cd "$srcdir/$pkgname-$pkgver"
