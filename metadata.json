@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "plasminal",
+        "Name": "Plasminal",
+        "Description": "Desktop widget with embedded terminal",
+        "Category": "Utilities",
+        "Icon": "utilities-terminal",
+        "License": "GPL-2.0-or-later",
+        "Version": "1.0.0",
+        "Website": "https://github.com/DarkOhmLabs/plasminal",
+        "Authors": [
+            {
+                "Name": "DarkOhmLabs",
+                "Email": "dohm.labs@proton.me"
+            }
+        ],
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

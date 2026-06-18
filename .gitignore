@@ -1,0 +1,15 @@
+# Build artifacts
+*.tar.gz
+plasminal-*/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*~
+.agent-cache/
+.waylog/
+
+# OS
+.DS_Store
+Thumbs.db

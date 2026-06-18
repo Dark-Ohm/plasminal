@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <entry name="fontFamily" type="String">
+            <default>Monospace</default>
+        </entry>
+        <entry name="fontSize" type="Int">
+            <default>12</default>
+        </entry>
+        <entry name="colorScheme" type="String">
+            <default>Linux</default>
+        </entry>
+        <entry name="opacity" type="Double">
+            <default>1.0</default>
+        </entry>
+        <entry name="showScrollbar" type="Bool">
+            <default>true</default>
+        </entry>
+        <entry name="initialDirectory" type="String">
+            <default>$HOME</default>
+        </entry>
+        <entry name="shellCommand" type="String">
+            <default></default>
+        </entry>
+        <entry name="skinPreset" type="String">
+            <default>default</default>
+        </entry>
+        <entry name="backgroundColor" type="String">
+            <default>#1e1e2e</default>
+        </entry>
+        <entry name="borderColor" type="String">
+            <default>#313244</default>
+        </entry>
+        <entry name="borderWidth" type="Int">
+            <default>1</default>
+        </entry>
+        <entry name="borderRadius" type="Int">
+            <default>4</default>
+        </entry>
+        <entry name="padding" type="Int">
+            <default>4</default>
+        </entry>
+    </group>
+</kcfg>
